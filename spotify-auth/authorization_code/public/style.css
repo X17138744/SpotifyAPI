@@ -1,0 +1,65 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p, h1, a{
+	text-align:center; 
+	text-shadow:White;
+	font-family: Proxima Nova;
+	color:white; 
+	text-shadow:white; 
+	font-size: 20px;
+}
+
+#login{
+	text-align:center;
+}
+
+#login {
+    display: none;
+  }
+
+#loggedin {
+    display: none;
+  }
+  
+#search-form, .form-control {
+    margin-bottom: 20px;
+}
+
+.cover {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.cover:hover {
+    cursor: pointer;
+}
+
+.cover.playing {
+    border: 5px solid #e45343;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+	  background-size: cover;
+	  transition: 1s opacity;
+}
+
+html { 
+height:auto; 
+animation: fadein 4s;
+color:black;
+}
